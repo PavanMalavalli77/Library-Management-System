@@ -1,0 +1,21 @@
+.adminNavbar{
+    background-color: rgb(8, 8, 77);
+}
+.navbar01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0px 25px;
+}
+.Nav_links li{
+    display: inline-block;
+    margin: 0px 15px;   
+}
+.Nav_links a{
+    text-decoration: none;
+    color: rgb(4, 247, 25);
+}
+.nav_img{
+    color: rgb(76, 235, 70);
+}

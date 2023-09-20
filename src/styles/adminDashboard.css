@@ -1,0 +1,31 @@
+.admindashboard h1{
+    color: white;
+    background-color: midnightblue;
+    margin-top: 5px;
+}
+.admin_wrapper0{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.info_wrapper0{
+    margin: 5px 450px;
+    text-align: start;
+    padding: 30px 30px;
+    box-shadow: 0px 8px 10px gray;
+    margin-top: -150px;
+    background-color: white;
+}
+.info_wrapper0 a{
+    text-decoration: underline orange ;
+    color: orange;
+    padding-bottom: 50px;
+}
+.para a{
+    text-decoration: none;
+    color: black;
+}
+.link a{
+    text-decoration: underline orange;
+    color: black;
+    padding: 0px;
+}

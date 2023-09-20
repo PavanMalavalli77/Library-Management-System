@@ -1,0 +1,25 @@
+.adminLogin{
+    background-color: rgb(202, 230, 248);
+    padding: 1px 0px;
+}
+.form_container_card{
+    background-color: white;
+    margin: 130px 470px;
+    padding: 50px 0px;
+    border-radius: 8px;
+}
+.form_input input{
+      border: solid black 2px;
+      border-radius: 7px;
+      background-color: white;
+      padding: 5px 10px;
+      margin: 15px;
+}
+.form_input button{
+    font-size: 20px;
+    padding: 4px 20px;
+    border: solid black 2px;
+    border-radius: 7px;
+    background-color: rgb(117, 172, 243);
+    margin-top: 15px;
+}

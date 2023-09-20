@@ -1,0 +1,120 @@
+.userdashboard h1{
+    color: white;
+    background-color: midnightblue;
+    margin-top: 5px;
+}
+.wrapper0_info{
+    display: inline-block;
+    margin: 10px 210px 60px;
+    text-align: start;
+    padding: 15px 30px;
+    box-shadow: 0px 8px 10px gray;
+}
+.wrapper0_info h1{
+    color: black;
+    background-color: white;
+    text-decoration: underline rgb(135, 218, 235);
+}
+.feature_card{
+    display: inline-block;
+    margin: 5px 400px;
+    text-align: start;
+    padding: 15px 30px;
+    box-shadow: 0px 8px 10px gray; 
+    margin-top: -150px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+.date p{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.feature_text h2{
+    margin: 10px 0px;
+    text-decoration: underline rgb(135, 218, 235);
+}
+.wrapper1 a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 0px solid rgb(135, 218, 235);
+    margin-left: 450px;
+    color: white;
+    background-color: rgb(135, 218, 235);
+}
+.wrapper2{
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/04/Pattern-BG-Learn.svg");
+    height: 300px;
+    width: 100%;
+    
+}
+.wrapper2_info{
+    color: white;
+}
+.wrapper2_info a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 0px solid white;
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+}
+.wrapper2_info a {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .wrapper2_info a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+    
+   }
+   
+   .wrapper2_info a span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+    
+   }
+
+.wrapper2_info a svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+    
+   }
+   
+   .wrapper2_info a:hover:before {
+    width: 100%;
+    background: #b1dae7;
+    
+   }
+   
+   .wrapper2_info a:hover svg {
+    transform: translateX(0);
+   }
+   
+   .wrapper2_info a:active {
+    transform: scale(0.95);
+   }
